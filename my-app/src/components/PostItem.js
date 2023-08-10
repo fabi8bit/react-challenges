@@ -2,7 +2,8 @@ import React from 'react'
 import css from "./css/Content.module.css"
 
 function PostItem(props) {
-    const posts = props.posts
+    const posts = props.posts;
+    console.log('posts from inside PostItem', posts);
   return (
     posts.map(post => {
         return <div key={post.title} className={css.SearchItem}>
