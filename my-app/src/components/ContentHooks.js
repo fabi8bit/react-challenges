@@ -18,7 +18,7 @@ function ContentHooks() {
             console.log('Time started');
             setIsLoaded(true);
             setFetchedPosts(savedPosts)
-        }, 2000);}, [])
+        }, 2000);})
         console.log(fetchedPosts)
     
   return (
